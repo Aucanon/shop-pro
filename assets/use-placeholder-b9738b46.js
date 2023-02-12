@@ -1,0 +1,1 @@
+import{g as o,C as h,D as i,M as u,k as c}from"./index-5c77cc65.js";const n=s=>{const t=o(),e=()=>{t.value=u(s).height};return h(()=>{i(e),setTimeout(e,100)}),t};function l(s,t){const e=n(s);return a=>c("div",{class:t("placeholder"),style:{height:e.value?`${e.value}px`:void 0}},[a()])}export{l as a,n as u};

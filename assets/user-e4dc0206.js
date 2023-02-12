@@ -1,0 +1,1 @@
+import{c as o}from"./index-498bb32d.js";const t=()=>o({method:"GET",url:"/verify_code"}),s=e=>o({method:"POST",url:"/register/verify",data:e}),i=e=>o({method:"POST",url:"/login",data:e}),l=e=>o({method:"POST",url:"/login/mobile",data:e}),a=()=>o({method:"GET",url:"/user"});export{l as a,s as b,a as c,t as g,i as l};

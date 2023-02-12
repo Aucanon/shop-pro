@@ -1,0 +1,1 @@
+import{c as e}from"./index-498bb32d.js";const s=r=>e({method:"GET",url:"/address/list",params:r}),d=r=>e({method:"POST",url:"/order/confirm",data:r}),a=(r,t)=>e({method:"POST",url:`/order/create/${r}`,data:t}),c=()=>e({method:"GET",url:"/order/list"}),m=r=>e({method:"GET",url:`/order/detail/${r}`});export{a,c as b,d as c,m as d,s as g};

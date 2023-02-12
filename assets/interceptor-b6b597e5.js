@@ -1,0 +1,1 @@
+import{am as o,aU as r}from"./index-5c77cc65.js";function e(l,{args:t=[],done:i,canceled:s}){if(l){const f=l.apply(null,t);o(f)?f.then(a=>{a?i():s&&s()}).catch(r):f?i():s&&s()}else i()}export{e as c};
